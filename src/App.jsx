@@ -18,7 +18,7 @@ function App() {
             <Typography variant="h1">Olá, Robert!</Typography>
             <Typography>Veja como estão suas finanças hoje.</Typography>
           </div>
-          <section>
+          <section className="grid grid-cols-2 items-stretch gap-6">
             <Card>
               <Card.Header>Orçamento diário disponível:</Card.Header>
               <Card.Body>
@@ -33,11 +33,15 @@ function App() {
             </Card>
             <Card>
               <Card.Header>Movimentação financeira</Card.Header>
-              <Card.Body>R$200</Card.Body>
+              <Card.Body>
+                <p>R$200</p>
+              </Card.Body>
             </Card>
             <Card>
               <Card.Header>Minhas contas</Card.Header>
-              <Card.Body>R$200</Card.Body>
+              <Card.Body>
+                <p>R$200</p>
+              </Card.Body>
             </Card>
           </section>
         </Main>
